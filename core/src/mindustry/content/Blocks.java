@@ -3279,7 +3279,7 @@ public class Blocks {
             {
                 requirements(Category.production, with(Items.copper, 120));
                 tier = 2;
-                drillTime = 150;
+                drillTime = 500;
                 size = 4;
                 // mechanical drill doesn't work in space
                 envEnabled ^= Env.space;
